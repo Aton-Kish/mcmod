@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfshulker",
+    "module": "reinforced-shulker-boxes-1.17",
+    "version": "1.1.3+1.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-1.17-1.1.3+1.17.jar",
+          "url": "reinforced-shulker-boxes-1.17-1.1.3+1.17.jar",
+          "size": 424863,
+          "sha512": "cfa8179ca7ceaffc9b941b2184c74efcfcf0dae50638a800f02893a472a4132b808e27375a705565de472c0bc97d8480c721d5eba51f1248a9207f33a09e76b1",
+          "sha256": "a733386afdfe5230dd28c5554a9d75a8d2857320dda98c41cd110de05f03b26c",
+          "sha1": "fc1f49f9d1285d083b122e091d6b5364205f29b4",
+          "md5": "f9d8f29363a4c2840b79b29fce9dca1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.42.1+1.17"
+          }
+        },
+        {
+          "group": "atonkish.reinfcore",
+          "module": "reinforced-core",
+          "version": {
+            "requires": "1.1.1+1.17"
+          }
+        },
+        {
+          "group": "net.kyrptonaught",
+          "module": "quickshulker",
+          "version": {
+            "requires": "1.3.0-1.17"
+          }
+        },
+        {
+          "group": "com.misterpemodder",
+          "module": "shulkerboxtooltip",
+          "version": {
+            "requires": "3.0.4+1.17.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-1.17-1.1.3+1.17.jar",
+          "url": "reinforced-shulker-boxes-1.17-1.1.3+1.17.jar",
+          "size": 424863,
+          "sha512": "cfa8179ca7ceaffc9b941b2184c74efcfcf0dae50638a800f02893a472a4132b808e27375a705565de472c0bc97d8480c721d5eba51f1248a9207f33a09e76b1",
+          "sha256": "a733386afdfe5230dd28c5554a9d75a8d2857320dda98c41cd110de05f03b26c",
+          "sha1": "fc1f49f9d1285d083b122e091d6b5364205f29b4",
+          "md5": "f9d8f29363a4c2840b79b29fce9dca1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-1.17-1.1.3+1.17-sources.jar",
+          "url": "reinforced-shulker-boxes-1.17-1.1.3+1.17-sources.jar",
+          "size": 373068,
+          "sha512": "17915643b6b1d58aa69da07f0849ede9cb6402bd9ba78b39f2abe6c56c8b53a0328010a3b356a4611f06ea397ad48435274636a226db11df0423d6a95bd00269",
+          "sha256": "0b57b4435da564df8e492cb61c293a2d62ad649ca06e3510f4759cac04243f6e",
+          "sha1": "611c3146f8f4f7ab3249ebbd77161b1c4ca2b40f",
+          "md5": "ec4fc2bf854a1013ded5c9182cc7cfd9"
+        }
+      ]
+    }
+  ]
+}

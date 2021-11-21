@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfbarrel",
+    "module": "reinforced-barrels-1.17",
+    "version": "1.0.4+1.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reinforced-barrels-1.17-1.0.4+1.17.jar",
+          "url": "reinforced-barrels-1.17-1.0.4+1.17.jar",
+          "size": 77242,
+          "sha512": "dc6938fb6f659ee804ad7adfea472b1004dc554f1b36654a665f96167d1286dad8a2482aadbce6f0fd2003af9aafae5c920d4e865a136433fdb0724338b69eb8",
+          "sha256": "0d15e063d4578bad7b8e80c37ed1aa01f24df31c67f26909e65eb2b561e2030c",
+          "sha1": "e9bc3835e2bd74a006b0e9d8edbffc88321d1b58",
+          "md5": "1431b291397dc380d217f61e645ab7cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.42.1+1.17"
+          }
+        },
+        {
+          "group": "atonkish.reinfcore",
+          "module": "reinforced-core",
+          "version": {
+            "requires": "1.1.1+1.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-barrels-1.17-1.0.4+1.17.jar",
+          "url": "reinforced-barrels-1.17-1.0.4+1.17.jar",
+          "size": 77242,
+          "sha512": "dc6938fb6f659ee804ad7adfea472b1004dc554f1b36654a665f96167d1286dad8a2482aadbce6f0fd2003af9aafae5c920d4e865a136433fdb0724338b69eb8",
+          "sha256": "0d15e063d4578bad7b8e80c37ed1aa01f24df31c67f26909e65eb2b561e2030c",
+          "sha1": "e9bc3835e2bd74a006b0e9d8edbffc88321d1b58",
+          "md5": "1431b291397dc380d217f61e645ab7cc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-barrels-1.17-1.0.4+1.17-sources.jar",
+          "url": "reinforced-barrels-1.17-1.0.4+1.17-sources.jar",
+          "size": 40130,
+          "sha512": "071515a66108081cbf51585b7edfc094180ffc4d5c1c3d54c9e7a9f6b67230c246468e659929fe862ff9931435152b62c575eb6dc57b1aecf07e0ece5515358c",
+          "sha256": "ed2ea120931d4e2a6303974d09202f6eaf1dd4f9514058e25960c0ad828724e2",
+          "sha1": "2dc2b854f6969b6c8f870439607ee7d23005b0cd",
+          "md5": "3afbee800a2543bcbfe7caec2ec8e3d6"
+        }
+      ]
+    }
+  ]
+}

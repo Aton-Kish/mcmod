@@ -5,7 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "yarn lint:typecheck && yarn lint:eslint && yarn lint:prettier",
+    "lint:typecheck": "tsc",
+    "lint:eslint": "eslint src/**/*.{ts,tsx}",
+    "lint:prettier": "prettier src/**/*.{ts,tsx} --check",
+    "fix": "yarn fix:eslint && yarn fix:prettier",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
     "react": "^18.0.0",

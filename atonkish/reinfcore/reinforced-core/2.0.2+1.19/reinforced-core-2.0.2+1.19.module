@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfcore",
+    "module": "reinforced-core",
+    "version": "2.0.2+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-2.0.2+1.19.jar",
+          "url": "reinforced-core-2.0.2+1.19.jar",
+          "size": 35316,
+          "sha512": "fbd6423012b651a3f194fe5f1a81ec1eb83c16dccb6314310966cdca07861a893bcd519f95ed45d6e3aeb030ae0983c27d64be0503564eff33be163c8f99a1bd",
+          "sha256": "cce6b5fdc601babb0a56e587849bcdc5993943931680661c2a2a5fbdd8d587a4",
+          "sha1": "d26489cb51e82d9f5774655dafd34c9cfd27fe77",
+          "md5": "ca87aa4e44f5655949436ae202e29fe1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.55.3+1.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-2.0.2+1.19.jar",
+          "url": "reinforced-core-2.0.2+1.19.jar",
+          "size": 35316,
+          "sha512": "fbd6423012b651a3f194fe5f1a81ec1eb83c16dccb6314310966cdca07861a893bcd519f95ed45d6e3aeb030ae0983c27d64be0503564eff33be163c8f99a1bd",
+          "sha256": "cce6b5fdc601babb0a56e587849bcdc5993943931680661c2a2a5fbdd8d587a4",
+          "sha1": "d26489cb51e82d9f5774655dafd34c9cfd27fe77",
+          "md5": "ca87aa4e44f5655949436ae202e29fe1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-2.0.2+1.19-sources.jar",
+          "url": "reinforced-core-2.0.2+1.19-sources.jar",
+          "size": 25544,
+          "sha512": "f1b47948ed2be2fc2e0c1d783793119f71c27e00a2d2380028aa919cb8862881a4ca5437b19dd03589595d238861179534a0be12f6924dd42bc90fcc60fb717c",
+          "sha256": "e15b702fee777f0c4801c20809b03b6b1d584f0cea0f48e49b0ab0fe490409be",
+          "sha1": "8993432a3c9bc4fdaccdba72ce056aef2a96e418",
+          "md5": "2be1abb48c9c6c61f7a1674f98ec49fe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfchest",
+    "module": "reinforced-chests",
+    "version": "2.0.3+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reinforced-chests-2.0.3+1.19.jar",
+          "url": "reinforced-chests-2.0.3+1.19.jar",
+          "size": 120861,
+          "sha512": "f89254442818fe5d0e30a0a50a2df75792b21813a618abd64ceb4b88e5a041ead157d4af14e1ef52bbc1294f2a53b6f140fbff9084079916adc5180dd99f118b",
+          "sha256": "af9ddcbb7998838b2f81bfc337d5419e637c86303c36ddd42d6e0ba1fe379049",
+          "sha1": "385637d5d65d5ce685c2a32bd226206352f013dc",
+          "md5": "f9f1b9fd2e1376644a6540496df9dde0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.57.0+1.19"
+          }
+        },
+        {
+          "group": "atonkish.reinfcore",
+          "module": "reinforced-core",
+          "version": {
+            "requires": "2.1.0+1.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-chests-2.0.3+1.19.jar",
+          "url": "reinforced-chests-2.0.3+1.19.jar",
+          "size": 120861,
+          "sha512": "f89254442818fe5d0e30a0a50a2df75792b21813a618abd64ceb4b88e5a041ead157d4af14e1ef52bbc1294f2a53b6f140fbff9084079916adc5180dd99f118b",
+          "sha256": "af9ddcbb7998838b2f81bfc337d5419e637c86303c36ddd42d6e0ba1fe379049",
+          "sha1": "385637d5d65d5ce685c2a32bd226206352f013dc",
+          "md5": "f9f1b9fd2e1376644a6540496df9dde0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-chests-2.0.3+1.19-sources.jar",
+          "url": "reinforced-chests-2.0.3+1.19-sources.jar",
+          "size": 72810,
+          "sha512": "43b35502e80628a32cfcef397f15752bd18f8388779dee3e0e534639fd2a211ac65caafde1743ede430093c5e80ba706719515d6e4eceee126f270cc70246de6",
+          "sha256": "95b0379e7ff0c3e1a966243b262598289e5b586d3e4b45e130f972666f8f3d7a",
+          "sha1": "3f10f931f5ddabeb2c669d29ab60224c4e35dbc0",
+          "md5": "7d2b649777743ac72017922d607532e5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.enderitestorage",
+    "module": "enderite-reinforced-storage",
+    "version": "1.0.3+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "enderite-reinforced-storage-1.0.3+1.19.jar",
+          "url": "enderite-reinforced-storage-1.0.3+1.19.jar",
+          "size": 123740,
+          "sha512": "6b4fa88655185141d66c9521a4df8a53ce02b4061e98f0792951002a2e709213ad435c23504ac234361be964d2245a22d138b5e24ad463909ed218a7f924d92d",
+          "sha256": "fb87d88883653a394f6aa64093f6ca83e4490f0a5d0873b862fb81595752fa90",
+          "sha1": "046d46a1f0770a9bffa8289f44256680c30c0ad4",
+          "md5": "b4d6d6ac7023a4d7f68cb2ec597434d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.58.5+1.19.1"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "enderite-mod-for-fabric-399221",
+          "version": {
+            "requires": "3826746"
+          }
+        },
+        {
+          "group": "atonkish.reinfchest",
+          "module": "reinforced-chests",
+          "version": {
+            "requires": "2.0.4+1.19"
+          }
+        },
+        {
+          "group": "atonkish.reinfshulker",
+          "module": "reinforced-shulker-boxes",
+          "version": {
+            "requires": "2.0.4+1.19"
+          }
+        },
+        {
+          "group": "atonkish.reinfbarrel",
+          "module": "reinforced-barrels",
+          "version": {
+            "requires": "2.1.0+1.19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "enderite-reinforced-storage-1.0.3+1.19.jar",
+          "url": "enderite-reinforced-storage-1.0.3+1.19.jar",
+          "size": 123740,
+          "sha512": "6b4fa88655185141d66c9521a4df8a53ce02b4061e98f0792951002a2e709213ad435c23504ac234361be964d2245a22d138b5e24ad463909ed218a7f924d92d",
+          "sha256": "fb87d88883653a394f6aa64093f6ca83e4490f0a5d0873b862fb81595752fa90",
+          "sha1": "046d46a1f0770a9bffa8289f44256680c30c0ad4",
+          "md5": "b4d6d6ac7023a4d7f68cb2ec597434d0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "enderite-reinforced-storage-1.0.3+1.19-sources.jar",
+          "url": "enderite-reinforced-storage-1.0.3+1.19-sources.jar",
+          "size": 112944,
+          "sha512": "89e717c39b909ada188f3c90f8f027d05739277c40a1b4c9ac833a3e0cd1461b3753a537d34eff31a1fa85839caa17257fd518e7dbf361583697f3f65a320556",
+          "sha256": "fec7db5744ff1373813275ad2142671a1828c8c6495c220649f10b71a48c9124",
+          "sha1": "0009dedda08eaa19bbfde29e48f558a770c38fef",
+          "md5": "181db06fa5ffb92bfbe2c4d57e1fbddb"
+        }
+      ]
+    }
+  ]
+}

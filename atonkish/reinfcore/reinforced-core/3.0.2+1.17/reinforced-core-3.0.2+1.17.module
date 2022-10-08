@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfcore",
+    "module": "reinforced-core",
+    "version": "3.0.2+1.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "5.3.63"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.0.2+1.17.jar",
+          "url": "reinforced-core-3.0.2+1.17.jar",
+          "size": 997871,
+          "sha512": "1e4ec03f3defaa0e00dda00dcbe0532cbcf7528c8b22181886460c54c7a139cf2190638e3975e3f13a700c4459bd99e0a77fe84142116309c0a16c600277e894",
+          "sha256": "0201eb388311ebad6dc462c963d1fba1df9c59a0741b22ec9e35716cabde03c6",
+          "sha1": "35d1448ffd5a2d70a97138e370a0ba2c6a142a0b",
+          "md5": "f1dc0391974d4e0e32e294daed76aafa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "5.3.63"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.46.1+1.17"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "2.0.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.0.2+1.17.jar",
+          "url": "reinforced-core-3.0.2+1.17.jar",
+          "size": 997871,
+          "sha512": "1e4ec03f3defaa0e00dda00dcbe0532cbcf7528c8b22181886460c54c7a139cf2190638e3975e3f13a700c4459bd99e0a77fe84142116309c0a16c600277e894",
+          "sha256": "0201eb388311ebad6dc462c963d1fba1df9c59a0741b22ec9e35716cabde03c6",
+          "sha1": "35d1448ffd5a2d70a97138e370a0ba2c6a142a0b",
+          "md5": "f1dc0391974d4e0e32e294daed76aafa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-3.0.2+1.17-sources.jar",
+          "url": "reinforced-core-3.0.2+1.17-sources.jar",
+          "size": 27885,
+          "sha512": "c9a1319cd6288e66da9f0535b46c0361503388905c86e2741926b2b1e67d7adefaaa676fe679aebbb8c9b967f76ae51511f3923fe59788cdd58d3efafd8b7c9b",
+          "sha256": "593841f9ffc3180de28bb6c274239513b6852979e59273b47cc8240dc8edee53",
+          "sha1": "c5b2f81f4652e966809384a5d775c6487e83a28f",
+          "md5": "eb01103c9db3159ec34439fadbea35bd"
+        }
+      ]
+    }
+  ]
+}

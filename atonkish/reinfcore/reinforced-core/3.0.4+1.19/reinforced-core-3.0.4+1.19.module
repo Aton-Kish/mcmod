@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfcore",
+    "module": "reinforced-core",
+    "version": "3.0.4+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "9.0.94"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.0.4+1.19.jar",
+          "url": "reinforced-core-3.0.4+1.19.jar",
+          "size": 1037146,
+          "sha512": "ca5bc151d92a701689615fda4b605c8a4ef110710e2a59b3bbca88ed26433cd0ad2d37721c4ff1bedba85215ef39fed52d91fe87426482479db35c612ab3b8a9",
+          "sha256": "74746a69ef86c8ebb6793c7b9fa1864bd3e7ee5305d8ef9316526f17b10b73c2",
+          "sha1": "30bdebbc7d2a6acd35f859519a4fa0ce42823027",
+          "md5": "fa79ae6bf47cea5ed71c6d67fbcd29fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "9.0.94"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.69.1+1.19.3"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "5.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.0.4+1.19.jar",
+          "url": "reinforced-core-3.0.4+1.19.jar",
+          "size": 1037146,
+          "sha512": "ca5bc151d92a701689615fda4b605c8a4ef110710e2a59b3bbca88ed26433cd0ad2d37721c4ff1bedba85215ef39fed52d91fe87426482479db35c612ab3b8a9",
+          "sha256": "74746a69ef86c8ebb6793c7b9fa1864bd3e7ee5305d8ef9316526f17b10b73c2",
+          "sha1": "30bdebbc7d2a6acd35f859519a4fa0ce42823027",
+          "md5": "fa79ae6bf47cea5ed71c6d67fbcd29fa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-3.0.4+1.19-sources.jar",
+          "url": "reinforced-core-3.0.4+1.19-sources.jar",
+          "size": 28071,
+          "sha512": "305007e1384dade14b24484a8c2a33a37fd13ec1fd84f37038eea5c7688e6a1695d79df5cc6912a08e6fe2ce109711bdf1ee05f054a9016a06c1dd0ef5c0a491",
+          "sha256": "6abd8c8ac951d1a7c586346571b989de0ebf6d6175be1c97bb95dc330be05c98",
+          "sha1": "e8a469f0acb9861ddfaef6430de44dc1e00de059",
+          "md5": "349ff3c0afa1e85d3567a60e5539cc36"
+        }
+      ]
+    }
+  ]
+}

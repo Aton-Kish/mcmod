@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfshulker",
+    "module": "reinforced-shulker-boxes",
+    "version": "2.3.0+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-2.3.0+1.19.jar",
+          "url": "reinforced-shulker-boxes-2.3.0+1.19.jar",
+          "size": 1444063,
+          "sha512": "68c6b9db403316cfba3f2c0443dcce537bc85f96a9ffaf3cb9cef9c179359234019cf99f8405677e3d69ed1d89b847e5da5bad177804aead254d9141d1ec1c4a",
+          "sha256": "a0d57b65bac380b2fd1e786faf52e52acb17713b8a68b1d3d93b7d1f5a672f2c",
+          "sha1": "133c2cc59afb5bcd2c544e5e346f6255864c6281",
+          "md5": "f1a2c83c933da86564505f84b709e303"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.69.1+1.19.3"
+          }
+        },
+        {
+          "group": "atonkish.reinfcore",
+          "module": "reinforced-core",
+          "version": {
+            "requires": "3.0.4+1.19"
+          }
+        },
+        {
+          "group": "atonkish.reinfchest",
+          "module": "reinforced-chests",
+          "version": {
+            "requires": "2.3.0+1.19"
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "quick-shulker-362669",
+          "version": {
+            "requires": "4171682"
+          }
+        },
+        {
+          "group": "net.kyrptonaught",
+          "module": "kyrptconfig",
+          "version": {
+            "requires": "1.5.1-1.19.3"
+          }
+        },
+        {
+          "group": "net.kyrptonaught",
+          "module": "shulkerutils",
+          "version": {
+            "requires": "1.0.4-1.19"
+          }
+        },
+        {
+          "group": "com.misterpemodder",
+          "module": "shulkerboxtooltip-fabric",
+          "version": {
+            "requires": "3.2.3+1.19.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-2.3.0+1.19.jar",
+          "url": "reinforced-shulker-boxes-2.3.0+1.19.jar",
+          "size": 1444063,
+          "sha512": "68c6b9db403316cfba3f2c0443dcce537bc85f96a9ffaf3cb9cef9c179359234019cf99f8405677e3d69ed1d89b847e5da5bad177804aead254d9141d1ec1c4a",
+          "sha256": "a0d57b65bac380b2fd1e786faf52e52acb17713b8a68b1d3d93b7d1f5a672f2c",
+          "sha1": "133c2cc59afb5bcd2c544e5e346f6255864c6281",
+          "md5": "f1a2c83c933da86564505f84b709e303"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-shulker-boxes-2.3.0+1.19-sources.jar",
+          "url": "reinforced-shulker-boxes-2.3.0+1.19-sources.jar",
+          "size": 383514,
+          "sha512": "4746638e48a1b3552c8b58f6f34e696fdf5d21b69318867c77f2633e2c3b38c107f7220e180851bf5471690b77c88ac693ab4cb68a5b0ee9e581c4632cf37049",
+          "sha256": "95e0d6a89957eff0a699fdeaea2d351310d6b872e67bc06a9f6272a768071903",
+          "sha1": "96ebe72c63eeb2d248a57379c62c3cd0c2306612",
+          "md5": "59f57bcbdea412b6d081dcea9bc3db09"
+        }
+      ]
+    }
+  ]
+}

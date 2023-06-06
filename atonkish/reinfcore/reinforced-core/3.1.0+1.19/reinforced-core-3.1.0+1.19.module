@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfcore",
+    "module": "reinforced-core",
+    "version": "3.1.0+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "10.0.96"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.1.0+1.19.jar",
+          "url": "reinforced-core-3.1.0+1.19.jar",
+          "size": 1041038,
+          "sha512": "74989f0b31c4391939fca1539c51da99397ad67faa463af17338fdbd2821af0b8b23d42ff784a2d785dbbe291e31e4bccaeb24dfa2c02186f446af85c124d1c2",
+          "sha256": "b976a2f1fdfed3493ebc4b6c5bc67dc3f6959b3aea308318dca474ba7016fcca",
+          "sha1": "570c3baed2088a4e162725048ebe4caece6a20d4",
+          "md5": "4ab87603ac908e2973fe5e89aa89d733"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "10.0.96"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.83.0+1.19.4"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "6.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-3.1.0+1.19.jar",
+          "url": "reinforced-core-3.1.0+1.19.jar",
+          "size": 1041038,
+          "sha512": "74989f0b31c4391939fca1539c51da99397ad67faa463af17338fdbd2821af0b8b23d42ff784a2d785dbbe291e31e4bccaeb24dfa2c02186f446af85c124d1c2",
+          "sha256": "b976a2f1fdfed3493ebc4b6c5bc67dc3f6959b3aea308318dca474ba7016fcca",
+          "sha1": "570c3baed2088a4e162725048ebe4caece6a20d4",
+          "md5": "4ab87603ac908e2973fe5e89aa89d733"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-3.1.0+1.19-sources.jar",
+          "url": "reinforced-core-3.1.0+1.19-sources.jar",
+          "size": 29023,
+          "sha512": "fb6a6eca85e8d1d2e29bbd69a24ffadfdde7931c6af1762503b86f1c0532abd9d74234a3c40f31a7e22d48c3a29086715ee99a67c4b8bc72c287f0287480cd82",
+          "sha256": "cd0e56847b460261fefe2add997cd6ae4068ba8d98a84a5415968abba90855c3",
+          "sha1": "68fc0acb8e9f7895622acd38ea64c4e0139a9321",
+          "md5": "f7fc007befc490f4ffc41623e15a7602"
+        }
+      ]
+    }
+  ]
+}

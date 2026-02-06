@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "atonkish.reinfcore",
+    "module": "reinforced-core",
+    "version": "4.0.9+1.21.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "21.11.153"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-4.0.9+1.21.11.jar",
+          "url": "reinforced-core-4.0.9+1.21.11.jar",
+          "size": 1056545,
+          "sha512": "44c2ce144a2b19df78e6d45a6a2250c2d9705348c5c70c0bf46503c639046b0eea7d1c82b538276ec23d4aa4d72366e2b6604217b75f79eab53636fb9f1638fe",
+          "sha256": "b91b1f5754921112d003d19b4188a8abbfd8f627074d716edd5585a227fc1ec2",
+          "sha1": "7e638b8c8b14d55fd15178706de916e8cde0f4e6",
+          "md5": "8ca720f4502d5094731f4873657ae06b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "21.11.153"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.141.2+1.21.11"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "17.0.0-beta.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reinforced-core-4.0.9+1.21.11.jar",
+          "url": "reinforced-core-4.0.9+1.21.11.jar",
+          "size": 1056545,
+          "sha512": "44c2ce144a2b19df78e6d45a6a2250c2d9705348c5c70c0bf46503c639046b0eea7d1c82b538276ec23d4aa4d72366e2b6604217b75f79eab53636fb9f1638fe",
+          "sha256": "b91b1f5754921112d003d19b4188a8abbfd8f627074d716edd5585a227fc1ec2",
+          "sha1": "7e638b8c8b14d55fd15178706de916e8cde0f4e6",
+          "md5": "8ca720f4502d5094731f4873657ae06b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reinforced-core-4.0.9+1.21.11-sources.jar",
+          "url": "reinforced-core-4.0.9+1.21.11-sources.jar",
+          "size": 33056,
+          "sha512": "87e889ce18433bf4337e3bf79075d957e82ed2a99960c9f2ccb43c7b6d35d7d3ac69f5c016321a1bc317b9c946774f1bf41285f7140bd39f9df9196ff691ccd3",
+          "sha256": "ec35bb300955bea42765a2445103c9bb79d58e660b8cf6512b94f4ee2a8a1e0c",
+          "sha1": "96d5ab5898d4490c49af473751b205d445598a6b",
+          "md5": "565cdbd2e8c731c24ff4c287c6b2a869"
+        }
+      ]
+    }
+  ]
+}
